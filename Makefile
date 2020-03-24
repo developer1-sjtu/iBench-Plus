@@ -13,6 +13,7 @@ default:
 clean:
 	rm -f src/memCap
 	rm -f src/memBw
+	rm -f src/memBw-plus
 	rm -f src/cpu
 	rm -f src/l1i
 	rm -f src/l1d
