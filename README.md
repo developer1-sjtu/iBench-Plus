@@ -1,7 +1,8 @@
 # iBench-Plus
 
-An Improved Version of iBench - Suite of Contentious Microbenchmarks Targeting at Shared Resources on Multi-core Chips
+iBench-Plus is an improved version of iBench, which is a suite of contentious microbenchmarks targeting at shared resources on multi-core chips.
+Compared to iBench, iBench-Plus has more functionalities, and is more configurable. Some benchmarks can now be guaranteed to run on multicores.
 
-https://github.com/stanford-mast/iBench
+The original repository can be found at https://github.com/stanford-mast/iBench.
 
-iBench is a suite of contentious microbenchmarks. Each microbenchmark targets a different shared resource in a multi-core chip (processing cores, cache capacity, main memory bandwidth) and has tunable intensity.
+iBench is a suite of contentious microbenchmarks. Each microbenchmark targets a different shared resource in a multi-core chip (processing cores, cache capacity, main memory capacity & bandwidth) and has tunable intensity.
