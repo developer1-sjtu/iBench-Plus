@@ -1,6 +1,7 @@
 default:
 	@#g++ -o src/memCap src/memCap.c
 	g++ -fopenmp -o src/memBw src/memBw.c
+	g++ -fopenmp -o src/memBw-plus src/memBw-plus.c
 	@#g++ -fopenmp -o src/cpu src/cpu.cpp  # -lpthread -lgomp
 	@#g++ -fopenmp -o src/cpu-all-cores src/cpu-all-cores.cpp  # -lpthread -lgomp
 	g++ -fopenmp -o src/cpu-each-thread-each-core src/cpu-each-thread-each-core.cpp
