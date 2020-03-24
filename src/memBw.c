@@ -35,16 +35,10 @@
 #ifndef N
 #define N 2000000
 #endif
-#ifndef NTIMES
-#define NTIMES 100
-#endif
-#ifndef OFFSET
-#define OFFSET 0
-#endif
 
-static double bwData[N+OFFSET];
+static double bwData[N];
 
-unsigned int bwStreamSize = N; // 2*N
+unsigned int bwStreamSize = N;
 
 int main (int argc, char **argv) { 
 	/* Usage: ./memBw <duration in sec> */
@@ -84,7 +78,6 @@ int main (int argc, char **argv) {
 
 			clock_t end = clock(); 
   			time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
-			// printf("Time spent: %f\n", time_spent);
 		}
 	}
 	return 0;
